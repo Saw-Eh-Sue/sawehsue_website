@@ -30,8 +30,8 @@ h1, h2, h3 {
 /* Button */
 .btn {
   display: inline-block;
-  background-color: #0073e6;
-  color: white;
+  background-color: rgb(14, 49, 151);
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
@@ -40,13 +40,21 @@ h1, h2, h3 {
 }
 
 .btn:hover {
-  background-color: #005bb5;
+  background-color: #aed7ff;
 }
 
 /* Header Section */
 .header {
   text-align: center;
-  background-color: #eef5ff;
+  /* background-color: #eef2ff; */
+  background-color: #88b6e4;
+  padding: 20px 0;
+}
+
+.header:hover {
+  text-align: center;
+  /* background-color: #eef2ff; */
+  background-color: #80aedc;
   padding: 20px 0;
 }
 
@@ -63,7 +71,7 @@ h1, h2, h3 {
 
 .subheading {
   font-size: 1.2em;
-  color: #666;
+  color: #3f2071;
   margin-bottom: 15px;
 }
 
@@ -72,6 +80,20 @@ h1, h2, h3 {
   height: 150px;
   border-radius: 15px;
   object-fit: cover;
+}
+
+.experience-pic {
+  border-radius: 5%;
+  width:180px;
+  height:180px;
+  object-fit:cover;
+}
+
+.experience-pics {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
 }
 
 /* About Section */
